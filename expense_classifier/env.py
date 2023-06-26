@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 import os
 
 OVERRIDES = {"dm          *spotify": "spotify"}
+EXCLUDES = ["pagamentos validos normais"]
 
 load_dotenv()
 

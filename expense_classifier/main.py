@@ -15,8 +15,8 @@ def run():
 
     logging.info(f"file_path = {file_path}, headers = {headers}")
 
-    data = classify_file_data(data)
-    upsert_data(data, file_path, headers)
+    data, expected_payment_date = classify_file_data(data)
+    upsert_data(data, file_path, headers, expected_payment_date)
 
     delete_file(file_path)
 
