@@ -7,7 +7,7 @@ from decimal import Decimal
 CATEGORIES = {
     "ifood": ["ifood", "ifd"],
     "liv up": ["livup", "liv up"],
-    "charity": ["apoia", "apoia.se"],
+    "charity": ["apoia", "apoia.se", "apoiase"],
     "fuel": ["auto posto", "posto"],
     "lunch": ["flying sushi"],
     "supermarket": ["mambo", "supermercado"],
@@ -30,6 +30,8 @@ CATEGORIES = {
         "lanche",
         "brilho do sol",
         "embaixada mineira",
+        "hirota",
+        "tea connection",
     ],
     "hotel": ["airbnb"],
     "drugstore": ["drograria", "drogasil"],
